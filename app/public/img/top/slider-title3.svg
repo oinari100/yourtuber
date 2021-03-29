@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 895.91133 267.60883"
+   width="1000"
+   height="270"
+   class="illustration"
+   version="1.1"
+   sodipodi:docname="slider-title3.svg"
+   inkscape:export-filename="/Users/nari/Downloads/Money transfer _Monochromatic.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.0.1 (c497b03c, 2020-09-10)">
+  <metadata
+     id="metadata5779">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>13</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1440"
+     inkscape:window-height="782"
+     id="namedview5777"
+     showgrid="false"
+     inkscape:zoom="0.50490195"
+     inkscape:cx="804.36511"
+     inkscape:cy="387.65624"
+     inkscape:window-x="2560"
+     inkscape:window-y="259"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Layer_1"
+     inkscape:document-rotation="0" />
+  <defs
+     id="defs5684">
+    <linearGradient
+       id="linear-gradient"
+       x1="206.7"
+       y1="169.12"
+       x2="203.96001"
+       y2="145.92"
+       gradientTransform="matrix(1,0,0,-1,0,352)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0.01"
+         id="stop5675" />
+      <stop
+         offset="0.08"
+         stop-opacity="0.69"
+         id="stop5677" />
+      <stop
+         offset="0.21"
+         stop-opacity="0.32"
+         id="stop5679" />
+      <stop
+         offset="1"
+         stop-opacity="0"
+         id="stop5681" />
+    </linearGradient>
+  </defs>
+  <title
+     id="title5686">13</title>
+  <path
+     d="M 606.71029,18.463587 C 585.07833,61.55941 424.34864,16.015466 406.60258,17.170248 340.02705,21.739477 270.36202,35.796027 220.49935,50.141876 178.79997,62.139294 93.841273,49.866959 72.136687,66.144306 51.397332,81.757966 41.995429,68.053604 17.974209,83.258851 2.7781641,92.899311 -0.44103507,114.46372 -19.056784,123.52561 c -31.4124,15.31582 -5.899205,67.00951 21.9830922,83.00606 15.8854628,9.09592 16.2299848,17.53416 44.0019658,23.30313 71.126036,14.77129 191.404396,-2.5533 276.209616,1.3012 151.52988,-4.41712 128.10498,15.12372 160.81359,15.60872 28.21325,0.43395 -27.7444,1.62517 0,0 69.41616,-4.06722 101.7863,-5.6868 166.12793,-14.68912 45.75342,-6.40714 110.26753,-0.59708 158.8616,-4.44305 48.59407,-3.84599 57.06742,-12.05449 87.62487,-24.37524 27.27556,-11.00188 10.5676,-36.76012 15.31118,-50.17851 4.5781,-12.92488 13.09222,-23.06136 -2.60018,-34.94814 C 875.35479,92.422571 928.26676,88.021624 866.35205,67.379258 803.03094,46.385391 697.7986,24.175162 606.71029,18.463587 c -34.06408,-2.000267 34.67369,0.11141 0,0 -8.88038,-0.05105 25.06423,27.40601 0,0 z"
+     fill="#68e1fd"
+     opacity="0.18"
+     style="isolation:isolate;fill:#ffaaaa;stroke-width:0.999998"
+     id="path5688-6"
+     sodipodi:nodetypes="ccccccccccccsccccccc" />
+  <text
+     xml:space="preserve"
+     style="font-size:63.4332px;line-height:1.25;font-family:'Noto Sans JP';-inkscape-font-specification:'Noto Sans JP';stroke-width:0.991144"
+     x="73.22261"
+     y="170.09528"
+     id="text6640-2"><tspan
+       sodipodi:role="line"
+       x="73.22261"
+       y="170.09528"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:63.4332px;font-family:'Noto Sans JP';-inkscape-font-specification:'Noto Sans JP Medium';fill:#ff2a2a;stroke-width:0.991144"
+       id="tspan6646-8">おすすめの動画を共有する</tspan></text>
+</svg>

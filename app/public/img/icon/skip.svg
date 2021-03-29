@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 40.913792 21.840197"
+   width="35"
+   height="15"
+   class="illustration"
+   version="1.1"
+   sodipodi:docname="skip.svg"
+   inkscape:export-filename="/Users/nari/Downloads/スマホ.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.0.1 (c497b03c, 2020-09-10)">
+  <metadata
+     id="metadata2182">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Iphone</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1440"
+     inkscape:window-height="786"
+     id="namedview2180"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:zoom="13.938489"
+     inkscape:cx="21.782684"
+     inkscape:cy="15.256371"
+     inkscape:window-x="2560"
+     inkscape:window-y="259"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs2150">
+    <linearGradient
+       id="linear-gradient"
+       x1="272.42001"
+       y1="378.23999"
+       x2="596.96997"
+       y2="121.68"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#010101"
+         stop-opacity="0"
+         id="stop2144" />
+      <stop
+         offset="0.95"
+         stop-color="#010101"
+         id="stop2146" />
+    </linearGradient>
+    <linearGradient
+       id="linear-gradient-2"
+       x1="242.28999"
+       y1="-16.559999"
+       x2="233.88"
+       y2="576.47998"
+       xlink:href="#linear-gradient" />
+  </defs>
+  <title
+     id="title2152">Iphone</title>
+  <text
+     xml:space="preserve"
+     style="font-size:15.5309px;line-height:1.25;font-family:'Noto Sans JP';-inkscape-font-specification:'Noto Sans JP';stroke-width:1.45601"
+     x="-3.5801587"
+     y="15.877906"
+     id="text4244"><tspan
+       sodipodi:role="line"
+       id="tspan4242"
+       x="-3.5801587"
+       y="15.877906"
+       style="font-weight:normal;fill:#818181;fill-opacity:1;stroke-width:1.45601">Skip</tspan></text>
+  <path
+     sodipodi:type="star"
+     style="fill:#818181;fill-opacity:1;stroke-width:5.48657"
+     id="path4246"
+     sodipodi:sides="3"
+     sodipodi:cx="31.609974"
+     sodipodi:cy="4.1783962"
+     sodipodi:r1="21.863834"
+     sodipodi:r2="10.931916"
+     sodipodi:arg1="1.1156955"
+     sodipodi:arg2="2.1628931"
+     inkscape:flatsided="false"
+     inkscape:rounded="0"
+     inkscape:randomized="0"
+     d="M 41.220285,23.816858 25.508849,13.249397 9.7974117,2.6819393 26.804819,-5.6408339 43.812225,-13.963608 42.516254,4.9266252 Z"
+     inkscape:transform-center-x="-1.0356642"
+     inkscape:transform-center-y="-0.04702434"
+     transform="matrix(0.10605939,0.3044599,-0.16178201,0.19959469,37.060674,-0.01736503)" />
+  <path
+     sodipodi:type="star"
+     style="fill:#ffffff;fill-opacity:1;stroke-width:6.77611"
+     id="path4246-9"
+     sodipodi:sides="3"
+     sodipodi:cx="31.609974"
+     sodipodi:cy="4.1783962"
+     sodipodi:r1="21.863834"
+     sodipodi:r2="10.931916"
+     sodipodi:arg1="1.1156955"
+     sodipodi:arg2="2.1628931"
+     inkscape:flatsided="false"
+     inkscape:rounded="0"
+     inkscape:randomized="0"
+     d="M 41.220285,23.816858 25.508849,13.249397 9.7974117,2.6819393 26.804819,-5.6408339 43.812225,-13.963608 42.516254,4.9266252 Z"
+     inkscape:transform-center-x="-0.83857059"
+     inkscape:transform-center-y="-0.038075377"
+     transform="matrix(0.08587568,0.24651944,-0.13099397,0.16161069,36.513543,2.0010262)" />
+  <path
+     sodipodi:type="star"
+     style="fill:#818181;fill-opacity:1;stroke-width:5.48657"
+     id="path4246-5"
+     sodipodi:sides="3"
+     sodipodi:cx="31.609974"
+     sodipodi:cy="4.1783962"
+     sodipodi:r1="21.863834"
+     sodipodi:r2="10.931916"
+     sodipodi:arg1="1.1156955"
+     sodipodi:arg2="2.1628931"
+     inkscape:flatsided="false"
+     inkscape:rounded="0"
+     inkscape:randomized="0"
+     d="M 41.220285,23.816858 25.508849,13.249397 9.7974117,2.6819393 26.804819,-5.6408339 43.812225,-13.963608 42.516254,4.9266252 Z"
+     inkscape:transform-center-x="-1.0356642"
+     inkscape:transform-center-y="-0.04702434"
+     transform="matrix(0.10605939,0.3044599,-0.16178201,0.19959469,31.576251,0.03505857)" />
+  <path
+     sodipodi:type="star"
+     style="fill:#ffffff;fill-opacity:1;stroke-width:6.77611"
+     id="path4246-9-8"
+     sodipodi:sides="3"
+     sodipodi:cx="31.609974"
+     sodipodi:cy="4.1783962"
+     sodipodi:r1="21.863834"
+     sodipodi:r2="10.931916"
+     sodipodi:arg1="1.1156955"
+     sodipodi:arg2="2.1628931"
+     inkscape:flatsided="false"
+     inkscape:rounded="0"
+     inkscape:randomized="0"
+     d="M 41.220285,23.816858 25.508849,13.249397 9.7974117,2.6819393 26.804819,-5.6408339 43.812225,-13.963608 42.516254,4.9266252 Z"
+     inkscape:transform-center-x="-0.83857059"
+     inkscape:transform-center-y="-0.038075377"
+     transform="matrix(0.08587568,0.24651944,-0.13099398,0.16161068,31.02912,2.0534498)" />
+</svg>
