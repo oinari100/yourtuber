@@ -3370,7 +3370,7 @@ __webpack_require__.r(__webpack_exports__);
         },
         4: {
           text: 'こわい',
-          value: 'scary'
+          value: 'scared'
         },
         5: {
           text: 'ほっこり',
@@ -3994,7 +3994,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".genre {\n  margin: 0;\n}\n.genre-title {\n  text-align: center;\n  color: #727171;\n  font-size: 16px;\n  margin: 20px 0 30px;\n}\n.genre-content {\n  padding: 10px 0 0;\n  margin: 0 auto;\n  width: 330px;\n}\n.genre-img {\n  margin: 10px auto 0;\n  width: 60px;\n}\n.genre-text {\n  text-align: center;\n}\n.genre-text-content {\n  color: #fff;\n  font-weight: bold;\n  font-size: 14px;\n}\n.v-form {\n  width: 300px;\n  margin: auto;\n}\n.sample {\n  font-size: 12px;\n  color: #AEADAB;\n  margin: -20px 0 0 10px;\n}\n.next {\n  margin: 20px 0;\n  text-align: center;\n}\n.next-btn {\n  font-weight: bold;\n}", ""]);
+exports.push([module.i, ".genre {\n  margin: 0;\n}\n.genre-title {\n  text-align: center;\n  color: #727171;\n  font-size: 16px;\n  margin: 20px 0 30px;\n}\n.genre-content {\n  padding: 10px 0 0;\n  margin: 0 auto;\n  width: 330px;\n}\n.genre-img {\n  margin: 10px auto 0;\n  width: 60px;\n}\n.genre-text {\n  text-align: center;\n}\n.genre-text-content {\n  color: #fff;\n  font-weight: bold;\n  font-size: 14px;\n}\n.v-form {\n  width: 300px;\n  margin: auto;\n}\n.sample {\n  font-size: 12px;\n  color: #AEADAB;\n  margin: -20px 0 0 10px;\n}\n.next-result {\n  margin: 20px 0 120px;\n  text-align: center;\n}\n.next-result-btn {\n  font-weight: bold;\n}", ""]);
 
 // exports
 
@@ -27677,7 +27677,7 @@ var render = function() {
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "next" },
+        { staticClass: "next-result" },
         [
           _c(
             "v-btn",

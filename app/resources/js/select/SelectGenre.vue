@@ -34,7 +34,7 @@
     </v-container>
 
     </div>
-    <div class="next">
+    <div class="next-result">
       <v-btn
         color="error"
         @click="next"
@@ -151,8 +151,8 @@
   margin: -20px 0 0 10px;
 }
 
-.next {
-  margin: 20px 0 ;
+.next-result {
+  margin: 20px 0 120px;
   text-align: center;
 
   &-btn {
