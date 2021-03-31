@@ -12,10 +12,8 @@ class GenreController extends Controller
 
     // Youtube動画検索（質問結果）
     public function selectResult(Request $request) {
-        $test = array('cool');
         $genre = new Genre();
-        //$select = $genre->getRetrieve($request->conditions);
-        $select = $genre->getRetrieve($test);
+        $select = $genre->getRetrieve($request->conditions);
         $data = response()->json($select);
         return $data;
     }
