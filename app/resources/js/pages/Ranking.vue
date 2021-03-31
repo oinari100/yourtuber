@@ -16,7 +16,7 @@
           {{youtubeItem.num}}位
           <v-icon class="pr-1 pl-5">mdi-thumb-up-outline</v-icon>{{youtubeItem.count}}
         </v-card>
-        <div class="ruselt-youtube-title">{{youtubeItem.youtuber}}</div>
+        <div class="ruselt-youtube-title mt-2">{{youtubeItem.youtuber}}</div>
         <div class="ranking-text pa-2">{{youtubeItem.title}}</div>
         <youtube :video-id="youtubeItem.url" class="ruselt-youtube-content"/>
         <div class="ranking-genre">
