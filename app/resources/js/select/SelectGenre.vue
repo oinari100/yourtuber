@@ -70,7 +70,7 @@
           1: { text:'青春', value:'youth'},
           2: { text:'かわいい', value:'cute'},
           3: { text:'恋愛', value:'love'},
-          4: { text:'こわい', value:'scary'},
+          4: { text:'こわい', value:'scared'},
           5: { text:'ほっこり', value:'unwind'},
           6: { text:'不思議な', value:'mysterious'},
         },
