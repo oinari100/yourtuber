@@ -2509,6 +2509,7 @@ __webpack_require__.r(__webpack_exports__);
       });
     },
     nextResult: function nextResult(genre) {
+      alert(genre);
       var res = axios.get('/registrationYoutuber', {
         params: {
           name: this.name,
@@ -3377,7 +3378,7 @@ __webpack_require__.r(__webpack_exports__);
         },
         6: {
           text: '不思議な',
-          value: 'mystery'
+          value: 'mysterious'
         }
       },
       genreItems2: {
@@ -3395,7 +3396,7 @@ __webpack_require__.r(__webpack_exports__);
         },
         4: {
           text: '下ネタ',
-          value: 'lewd'
+          value: 'adult'
         },
         5: {
           text: 'どっきり',
@@ -3403,7 +3404,7 @@ __webpack_require__.r(__webpack_exports__);
         },
         6: {
           text: 'ためになる',
-          value: 'useful'
+          value: 'study'
         }
       },
       selected: [],
