@@ -8,7 +8,7 @@
   <meta property="og:url" content="http://ec2-54-249-6-111.ap-northeast-1.compute.amazonaws.com/">
   <meta property="og:title" content="YourTube">
   <meta property="og:description" content="好みのジャンルを選んで、あなたにオススメ動画を検索する！">
-  <meta property="og:image" content="http://ec2-54-249-6-111.ap-northeast-1.compute.amazonaws.com/img/top-img-content.svg">
+  <meta property="og:image" content="http://ec2-54-249-6-111.ap-northeast-1.compute.amazonaws.com/img/top/top-img.svg">
   <title>YourTube | オススメYoutube動画診断サービス</title>
 
   <!-- Scripts -->
