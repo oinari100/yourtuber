@@ -8,13 +8,13 @@
       </v-row>
       <v-row>
         <div class="footer-twitter">
-          <v-icon color="#fff">mdi-twitter</v-icon>
+          <a @click="linkToOtherWindow('https://twitter.com/oinari_pg')"><v-icon color="#fff">mdi-twitter</v-icon></a>
         </div>
       </v-row>
     </v-container>
 
     <div class="footer-name">
-      <div class="footer-copy">&copy; Yourtuber 2021</div>
+      <div class="footer-copy">&copy; Yourtube 2021</div>
     </div>
   </v-footer>
 </template>
@@ -29,6 +29,11 @@
         }
       }
     },
+    methods: {
+      linkToOtherWindow (url) {
+        window.open(url, '_blank')
+      }
+    }
   }
 </script>
 

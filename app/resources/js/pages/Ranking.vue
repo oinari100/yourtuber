@@ -34,10 +34,10 @@
       </div>
       <div class="ranking-btn">
         <div>
-          <SearchBtn  class="mb-10"/>
+          <SearchBtn class="mb-10"/>
         </div>
         <div>
-          <EntryBtn  class="mb-10"/>
+          <EntryBtn class="mb-10"/>
         </div>
       </div>
     <AppFooter />

@@ -8,13 +8,13 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="55mm"
+   width="50mm"
    height="10mm"
-   viewBox="0 0 55 10"
+   viewBox="0 0 50 10"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (c497b03c, 2020-09-10)"
-   sodipodi:docname="toptitle.svg">
+   sodipodi:docname="top-title.svg">
   <defs
      id="defs2">
     <linearGradient
@@ -100,10 +100,10 @@
      inkscape:current-layer="text835"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1440"
-     inkscape:window-height="784"
-     inkscape:window-x="2560"
-     inkscape:window-y="259"
+     inkscape:window-width="2560"
+     inkscape:window-height="1325"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -135,7 +135,7 @@
            id="tspan920"
            style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:9.87778px;font-family:'Noto Sans JP';-inkscape-font-specification:'Noto Sans JP Heavy';fill:url(#linearGradient924);stroke-width:0.0700042"
            x="1.6036172"
-           y="8.9535294">YourTuber</tspan></text>
+           y="8.9535294">YourTube</tspan></text>
     </g>
   </g>
 </svg>

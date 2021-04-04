@@ -1,9 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Mail\Contacted;
-use Illuminate\Support\Facades\Mail;
 use Illuminate\Http\Request;
+use Mail;
 
 class MailController extends Controller
 {
@@ -12,10 +11,15 @@ class MailController extends Controller
     }
 
     // メール送信
-    public function sendMail(Request $request) {
-        $request->name = '名前';
-        $request->email = 'メール';
-        $request->textarea = '本文';
-        return \Mail::to('oinari1000@yahoo.co.jp')->send(new Contacted($request));
+    public function sendMail(Request $request) 
+    {
+        $data = array('name'=>$request->name);
+        $data += array('email'=>$request->email);
+        $data += array('textarea'=>$request->textarea);
+        
+    	Mail::send('contact', $data, function($message){
+    	    $message->to('oinari.work@gmail.com')
+                ->subject('【YourTube】お問い合わせがありました。');
+    	});
     }
 }

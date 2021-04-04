@@ -6,7 +6,7 @@
     <div class="slider-last-text">
       <p class="slider-last-text-content">
         ＼ 面倒な会員登録など一切不要 ／<br>
-        あなたもYourTuberを始めてみませんか？
+        あなたもYourTubeを始めてみませんか？
       </p>
     </div>
     <div class="slider-last-btn">

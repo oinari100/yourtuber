@@ -8,7 +8,7 @@
     </div>
     <div class="slider-title-text">
       <p class="slider-title-text-content">
-        YourTuberは、あなたに合う動画をみつけたり、好きな動画を共有し、周りに広げるサービスです。
+        YourTubeは、あなたに合う動画をみつけたり、好きな動画を共有し、周りに広げるサービスです。
       </p>
     </div>
   </div>

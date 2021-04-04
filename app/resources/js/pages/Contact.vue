@@ -6,7 +6,6 @@
       <v-form
         ref="form"
         v-model="valid"
-        lazy-validation
       >
         <v-text-field
           v-model="name"
@@ -43,6 +42,29 @@
         </div>
       </v-form>
     <AppFooter />
+    <v-dialog v-model="dialog" width="300">
+      <v-card justify="center">
+        <v-row>
+          <v-col md="12" align="center">
+          <div class="py-10">
+            送信が完了いたしました。
+          </div>
+          <div>
+            <v-btn
+              rounded
+              color="primary"
+              dark
+              large
+              class="mb-10"
+              to="/top"
+            >
+              <span class="contact-dialog-text">Topへ戻る</span>
+            </v-btn>
+          </div>
+          </v-col>
+        </v-row>
+      </v-card>
+    </v-dialog>
   </div>
 </template>
 
@@ -70,6 +92,7 @@ export default {
     textareaRules: [
       v => !!v || '入力してください',
     ],
+    dialog: false,
   }),
   methods: {
     sendMail () {
@@ -78,9 +101,9 @@ export default {
         email: this.email,
         textarea: this.textarea,
       }
-      axios.post('/sendMail', params).then(
+      axios.get('/sendMail', {params:params}).then(
         (res)=>{
-          
+          this.dialog = true;
         }
       );
     }
@@ -111,6 +134,11 @@ export default {
       font-weight: bold;
     }
   } 
+
+  &-dialog-text {
+    color: #FFF;
+    font-weight: bold;
+  }
 
 }
 

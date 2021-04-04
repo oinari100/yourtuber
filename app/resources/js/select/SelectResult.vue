@@ -2,26 +2,30 @@
   <div class="done">
     <div class="done-title">Thank You！</div>
     <div class="done-title-sub">動画の登録が完了しました</div>
-    <div class="ruselt-youtube">
+    <div class="ruselt-youtube mb-8">
       <div class="ruselt-youtube-title">{{name}}</div>
       <div class="ruselt-youtube-text pa-2">{{title}}</div>
       <youtube :video-id="url" class="ruselt-youtube-content"/>
     </div>
     <div class="done-btn">
-      <SearchBtn  class="mb-10"/>
-      <v-btn
-        rounded
-        large
-        dark
-        color="#7A80FF"
-        width="250"
-        height="60"
-        class="mb-10"
-        @click="refresh"
-      >
-        <img src='/img/btn/plus.png' class="entry-btn"/>
-        <span class="entry-btn-text">動画を登録する</span>
-      </v-btn>
+      <div>
+        <SearchBtn  class="mb-10"/>
+      </div>
+      <div>
+        <v-btn
+          rounded
+          large
+          dark
+          color="#7A80FF"
+          width="250"
+          height="60"
+          class="mb-10"
+          @click="refresh"
+        >
+          <img src='/img/btn/plus.png' class="entry-btn"/>
+          <span class="entry-btn-text">動画を登録する</span>
+        </v-btn>
+      </div>
       <RankingBtn  class="mb-10"/>
     </div>
   </div>
@@ -70,7 +74,6 @@ export default {
   }
 
   &-btn {
-    margin: 30px 0　0;
     padding: 50px 0 100px;
     background-color: #FFFBF2;
   }

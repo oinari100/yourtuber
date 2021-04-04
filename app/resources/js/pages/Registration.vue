@@ -115,7 +115,6 @@ export default {
       )
     },
     nextResult: function(genre){
-      alert(genre)
       const res = axios.get('/registrationYoutuber', {
         params:{
           name: this.name,

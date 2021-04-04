@@ -1980,9 +1980,34 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      youtubeItems: [{
+        youtuber: '',
+        title: ''
+      }, {
+        youtuber: '',
+        title: ''
+      }, {
+        youtuber: '',
+        title: ''
+      }]
+    };
+  },
+  created: function created() {
+    var getData1 = this.$store.getters['getData1'];
+    var getData2 = this.$store.getters['getData2'];
+    var getData3 = this.$store.getters['getData3'];
+    this.youtubeItems[0].youtuber = getData1.name;
+    this.youtubeItems[0].title = getData1.title;
+    this.youtubeItems[1].youtuber = getData2.name;
+    this.youtubeItems[1].title = getData2.title;
+    this.youtubeItems[2].youtuber = getData3.name;
+    this.youtubeItems[2].title = getData3.title;
+  },
   methods: {
     tweet: function tweet() {
-      axios.get('/resultTweet').then(function (res) {});
+      javascript: location.href = "twitter://post?message=" + "あなたにオススメの動画は…" + "%0D%0A" + "%0D%0A" + this.youtubeItems[0].youtuber + "「" + this.youtubeItems[0].title + "」" + "%0D%0A" + this.youtubeItems[1].youtuber + "「" + this.youtubeItems[1].title + "」" + "%0D%0A" + this.youtubeItems[2].youtuber + "「" + this.youtubeItems[2].title + "」" + "%0D%0A" + "%0D%0A" + encodeURIComponent(document.title) + "%0D%0A" + encodeURIComponent(location.href);
     }
   }
 });
@@ -2033,6 +2058,11 @@ __webpack_require__.r(__webpack_exports__);
         }
       }
     };
+  },
+  methods: {
+    linkToOtherWindow: function linkToOtherWindow(url) {
+      window.open(url, '_blank');
+    }
   }
 });
 
@@ -2126,6 +2156,28 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -2149,17 +2201,24 @@ __webpack_require__.r(__webpack_exports__);
       textarea: '',
       textareaRules: [function (v) {
         return !!v || '入力してください';
-      }]
+      }],
+      dialog: false
     };
   },
   methods: {
     sendMail: function sendMail() {
+      var _this = this;
+
       var params = {
         name: this.name,
         email: this.email,
         textarea: this.textarea
       };
-      axios.post('/sendMail', params).then(function (res) {});
+      axios.get('/sendMail', {
+        params: params
+      }).then(function (res) {
+        _this.dialog = true;
+      });
     }
   }
 });
@@ -2509,7 +2568,6 @@ __webpack_require__.r(__webpack_exports__);
       });
     },
     nextResult: function nextResult(genre) {
-      alert(genre);
       var res = axios.get('/registrationYoutuber', {
         params: {
           name: this.name,
@@ -3474,6 +3532,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 
 
 
@@ -3842,7 +3904,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".contact-img {\n  margin: 90px auto 0;\n  width: 90px;\n}\n.contact-text {\n  width: 300px;\n  margin: 30px auto;\n}\n.contact-btn {\n  margin: 10px 10px 120px;\n  text-align: center;\n}\n.contact-btn-text {\n  color: #FFF;\n  font-size: 14px;\n  font-weight: bold;\n}", ""]);
+exports.push([module.i, ".contact-img {\n  margin: 90px auto 0;\n  width: 90px;\n}\n.contact-text {\n  width: 300px;\n  margin: 30px auto;\n}\n.contact-btn {\n  margin: 10px 10px 120px;\n  text-align: center;\n}\n.contact-btn-text {\n  color: #FFF;\n  font-size: 14px;\n  font-weight: bold;\n}\n.contact-dialog-text {\n  color: #FFF;\n  font-weight: bold;\n}", ""]);
 
 // exports
 
@@ -4013,7 +4075,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "@charset \"UTF-8\";\n.done {\n  text-align: center;\n  margin: 50px 0 0;\n}\n.done-title {\n  font-size: 24px;\n  font-weight: bold;\n  color: #F66868;\n  margin: 0 0 10px;\n}\n.done-title-sub {\n  font-size: 16px;\n  font-weight: bold;\n  color: #F66868;\n}\n.done-btn {\n  margin: 30px 0　0;\n  padding: 50px 0 100px;\n  background-color: #FFFBF2;\n}", ""]);
+exports.push([module.i, ".done {\n  text-align: center;\n  margin: 50px 0 0;\n}\n.done-title {\n  font-size: 24px;\n  font-weight: bold;\n  color: #F66868;\n  margin: 0 0 10px;\n}\n.done-title-sub {\n  font-size: 16px;\n  font-weight: bold;\n  color: #F66868;\n}\n.done-btn {\n  padding: 50px 0 100px;\n  background-color: #FFFBF2;\n}", ""]);
 
 // exports
 
@@ -26065,23 +26127,33 @@ var render = function() {
           ),
           _vm._v(" "),
           _c("v-row", [
-            _c(
-              "div",
-              { staticClass: "footer-twitter" },
-              [
-                _c("v-icon", { attrs: { color: "#fff" } }, [
-                  _vm._v("mdi-twitter")
-                ])
-              ],
-              1
-            )
+            _c("div", { staticClass: "footer-twitter" }, [
+              _c(
+                "a",
+                {
+                  on: {
+                    click: function($event) {
+                      return _vm.linkToOtherWindow(
+                        "https://twitter.com/oinari_pg"
+                      )
+                    }
+                  }
+                },
+                [
+                  _c("v-icon", { attrs: { color: "#fff" } }, [
+                    _vm._v("mdi-twitter")
+                  ])
+                ],
+                1
+              )
+            ])
           ])
         ],
         1
       ),
       _vm._v(" "),
       _c("div", { staticClass: "footer-name" }, [
-        _c("div", { staticClass: "footer-copy" }, [_vm._v("© Yourtuber 2021")])
+        _c("div", { staticClass: "footer-copy" }, [_vm._v("© Yourtube 2021")])
       ])
     ],
     1
@@ -26176,7 +26248,6 @@ var render = function() {
         "v-form",
         {
           ref: "form",
-          attrs: { "lazy-validation": "" },
           model: {
             value: _vm.valid,
             callback: function($$v) {
@@ -26250,7 +26321,67 @@ var render = function() {
         1
       ),
       _vm._v(" "),
-      _c("AppFooter")
+      _c("AppFooter"),
+      _vm._v(" "),
+      _c(
+        "v-dialog",
+        {
+          attrs: { width: "300" },
+          model: {
+            value: _vm.dialog,
+            callback: function($$v) {
+              _vm.dialog = $$v
+            },
+            expression: "dialog"
+          }
+        },
+        [
+          _c(
+            "v-card",
+            { attrs: { justify: "center" } },
+            [
+              _c(
+                "v-row",
+                [
+                  _c("v-col", { attrs: { md: "12", align: "center" } }, [
+                    _c("div", { staticClass: "py-10" }, [
+                      _vm._v("\n          送信が完了いたしました。\n        ")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      [
+                        _c(
+                          "v-btn",
+                          {
+                            staticClass: "mb-10",
+                            attrs: {
+                              rounded: "",
+                              color: "primary",
+                              dark: "",
+                              large: "",
+                              to: "/top"
+                            }
+                          },
+                          [
+                            _c("span", { staticClass: "contact-dialog-text" }, [
+                              _vm._v("Topへ戻る")
+                            ])
+                          ]
+                        )
+                      ],
+                      1
+                    )
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
     ],
     1
   )
@@ -26322,7 +26453,7 @@ var render = function() {
               1
             ),
             _vm._v(" "),
-            _c("div", { staticClass: "ruselt-youtube-title" }, [
+            _c("div", { staticClass: "ruselt-youtube-title mt-2" }, [
               _vm._v(_vm._s(youtubeItem.youtuber))
             ]),
             _vm._v(" "),
@@ -27189,7 +27320,7 @@ var render = function() {
             [
               _c("div", [
                 _vm._v(
-                  "この利用規約（以下，「本規約」といいます。）は，Youtuber開発者（以下，「当社」といいます。）がこのウェブサイト上で提供するサービス（以下，「本サービス」といいます。）の利用条件を定めるものです。登録ユーザーの皆さま（以下，「ユーザー」といいます。）には，本規約に従って，本サービスをご利用いただきます。"
+                  "この利用規約（以下，「本規約」といいます。）は，YourTube開発者（以下，「当社」といいます。）がこのウェブサイト上で提供するサービス（以下，「本サービス」といいます。）の利用条件を定めるものです。登録ユーザーの皆さま（以下，「ユーザー」といいます。）には，本規約に従って，本サービスをご利用いただきます。"
                 )
               ]),
               _vm._v(" "),
@@ -27784,7 +27915,7 @@ var render = function() {
     _vm._v(" "),
     _c(
       "div",
-      { staticClass: "ruselt-youtube" },
+      { staticClass: "ruselt-youtube mb-8" },
       [
         _c("div", { staticClass: "ruselt-youtube-title" }, [
           _vm._v(_vm._s(_vm.name))
@@ -27806,32 +27937,38 @@ var render = function() {
       "div",
       { staticClass: "done-btn" },
       [
-        _c("SearchBtn", { staticClass: "mb-10" }),
+        _c("div", [_c("SearchBtn", { staticClass: "mb-10" })], 1),
         _vm._v(" "),
         _c(
-          "v-btn",
-          {
-            staticClass: "mb-10",
-            attrs: {
-              rounded: "",
-              large: "",
-              dark: "",
-              color: "#7A80FF",
-              width: "250",
-              height: "60"
-            },
-            on: { click: _vm.refresh }
-          },
+          "div",
           [
-            _c("img", {
-              staticClass: "entry-btn",
-              attrs: { src: "/img/btn/plus.png" }
-            }),
-            _vm._v(" "),
-            _c("span", { staticClass: "entry-btn-text" }, [
-              _vm._v("動画を登録する")
-            ])
-          ]
+            _c(
+              "v-btn",
+              {
+                staticClass: "mb-10",
+                attrs: {
+                  rounded: "",
+                  large: "",
+                  dark: "",
+                  color: "#7A80FF",
+                  width: "250",
+                  height: "60"
+                },
+                on: { click: _vm.refresh }
+              },
+              [
+                _c("img", {
+                  staticClass: "entry-btn",
+                  attrs: { src: "/img/btn/plus.png" }
+                }),
+                _vm._v(" "),
+                _c("span", { staticClass: "entry-btn-text" }, [
+                  _vm._v("動画を登録する")
+                ])
+              ]
+            )
+          ],
+          1
         ),
         _vm._v(" "),
         _c("RankingBtn", { staticClass: "mb-10" })
@@ -28058,7 +28195,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "slider-title-text" }, [
       _c("p", { staticClass: "slider-title-text-content" }, [
         _vm._v(
-          "\n      YourTuberは、あなたに合う動画をみつけたり、好きな動画を共有し、周りに広げるサービスです。\n    "
+          "\n      YourTubeは、あなたに合う動画をみつけたり、好きな動画を共有し、周りに広げるサービスです。\n    "
         )
       ])
     ])
@@ -28236,7 +28373,7 @@ var staticRenderFns = [
       _c("p", { staticClass: "slider-last-text-content" }, [
         _vm._v("\n      ＼ 面倒な会員登録など一切不要 ／"),
         _c("br"),
-        _vm._v("\n      あなたもYourTuberを始めてみませんか？\n    ")
+        _vm._v("\n      あなたもYourTubeを始めてみませんか？\n    ")
       ])
     ])
   }

@@ -25,9 +25,7 @@ Route::get('selectResultAssessment', 'App\Http\Controllers\AssessmentController@
 
 Route::get('updateCount', 'App\Http\Controllers\AssessmentController@updateCount');
 
-Route::post('sendMail', 'App\Http\Controllers\MailController@sendMail');
-
-Route::get('resultTweet', 'App\Http\Controllers\TwitterController@tweet');
+Route::get('sendMail', 'App\Http\Controllers\MailController@sendMail');
 
 Route::get('selectRankingAssessment', 'App\Http\Controllers\AssessmentController@selectRanking');
 
