@@ -3,7 +3,7 @@
     <div class="smh-registration">
       <v-img src='/img/registration-text.svg'  class="smh-registration-img"/>
     </div>
-    <div class="slider-title">
+    <div class="slider-title mt-13">
       <v-img src='/img/top/slider-title3.svg' />
     </div>
     <div class="slider-title-text">
@@ -25,22 +25,6 @@
   &-img {
     margin: auto;
     width: 320px;
-  }
-}
-
-.slider-title {
-  width: 300px;
-  margin: -30px auto 0;
-
-  &-text {
-    margin: 40px auto 0;
-    width: 230px;
-
-    &-content {
-      color: #333;
-      font-size: 14px;
-      line-height: 26px;
-    }
   }
 }
 </style>

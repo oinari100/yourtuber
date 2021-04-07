@@ -2007,7 +2007,7 @@ __webpack_require__.r(__webpack_exports__);
   },
   methods: {
     tweet: function tweet() {
-      javascript: location.href = "twitter://post?message=" + "あなたにオススメの動画は…" + "%0D%0A" + "%0D%0A" + "・" + this.youtubeItems[0].youtuber + "「" + this.youtubeItems[0].title + "」" + "%0D%0A" + "・" + this.youtubeItems[1].youtuber + "「" + this.youtubeItems[1].title + "」" + "%0D%0A" + "・" + this.youtubeItems[2].youtuber + "「" + this.youtubeItems[2].title + "」" + "%0D%0A" + "%0D%0A" + encodeURIComponent(document.title);
+      javascript: location.href = "twitter://post?message=" + "オススメの動画は…" + "%0D%0A" + "%0D%0A" + "・" + this.youtubeItems[0].youtuber + "「" + this.youtubeItems[0].title.substr(0, 5) + "...」" + "%0D%0A" + "・" + this.youtubeItems[1].youtuber + "「" + this.youtubeItems[1].title.substr(0, 5) + "...」" + "%0D%0A" + "・" + this.youtubeItems[2].youtuber + "「" + this.youtubeItems[2].title.substr(0, 5) + "...」" + "%0D%0A" + "%0D%0A" + "https://yourtube.co.jp/";
     }
   }
 });
@@ -4170,7 +4170,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".smh-registration {\n  margin: 110px auto 80px;\n}\n.smh-registration-img {\n  margin: auto;\n  width: 320px;\n}\n.slider-title {\n  width: 300px;\n  margin: -30px auto 0;\n}\n.slider-title-text {\n  margin: 40px auto 0;\n  width: 230px;\n}\n.slider-title-text-content {\n  color: #333;\n  font-size: 14px;\n  line-height: 26px;\n}", ""]);
+exports.push([module.i, ".smh-registration {\n  margin: 110px auto 80px;\n}\n.smh-registration-img {\n  margin: auto;\n  width: 320px;\n}", ""]);
 
 // exports
 
@@ -28299,7 +28299,7 @@ var render = function() {
     _vm._v(" "),
     _c(
       "div",
-      { staticClass: "slider-title" },
+      { staticClass: "slider-title mt-13" },
       [_c("v-img", { attrs: { src: "/img/top/slider-title3.svg" } })],
       1
     ),
