@@ -4189,7 +4189,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".slider-heigth {\n  width: 100%;\n  height: 110%;\n}\n.smh-registration {\n  margin: 110px auto 80px;\n}\n.smh-registration-last {\n  margin: auto;\n  width: 280px;\n}\n.slider-last {\n  width: 300px;\n}\n.slider-last-text {\n  margin: -30px auto 0;\n  width: 280px;\n  text-align: center;\n}\n.slider-last-text-content {\n  color: #333;\n  font-size: 14px;\n  line-height: 26px;\n  margin: 0 0 30px;\n}\n.slider-last-btn {\n  margin: 40px 0 0;\n  text-align: center;\n}\n.slider-last-king {\n  text-align: center;\n  margin: 30px 0 0;\n}", ""]);
+exports.push([module.i, ".slider-heigth {\n  width: 100%;\n  height: 110%;\n}\n.smh-registration {\n  margin: 100px auto 0px;\n}\n.smh-registration-last {\n  margin: auto;\n  width: 280px;\n}\n.slider-last {\n  width: 300px;\n}\n.slider-last-text {\n  margin: 30px auto 0;\n  width: 280px;\n  text-align: center;\n}\n.slider-last-text-content {\n  color: #333;\n  font-size: 14px;\n  line-height: 26px;\n  margin: 0 0 30px;\n}\n.slider-last-btn {\n  margin: 40px 0 0;\n  text-align: center;\n}\n.slider-last-king {\n  text-align: center;\n  margin: 30px 0 0;\n}", ""]);
 
 // exports
 

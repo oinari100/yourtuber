@@ -42,7 +42,7 @@ export default {
 }
 
 .smh-registration {
-  margin: 110px auto 80px;
+  margin: 100px auto 0px;
 
   &-last {
     margin: auto;
@@ -54,7 +54,7 @@ export default {
   width: 300px;
 
   &-text {
-    margin: -30px auto 0;
+    margin: 30px auto 0;
     width: 280px;
     text-align: center;
 
