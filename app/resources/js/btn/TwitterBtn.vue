@@ -38,6 +38,7 @@ export default {
         "・"+this.youtubeItems[0].youtuber+"「"+this.youtubeItems[0].title.substr( 0, 6 )+"...」"+"%0D%0A"+
         "・"+this.youtubeItems[1].youtuber+"「"+this.youtubeItems[1].title.substr( 0, 6 )+"...」"+"%0D%0A"+
         "・"+this.youtubeItems[2].youtuber+"「"+this.youtubeItems[2].title.substr( 0, 6 )+"...」"+"%0D%0A"+"%0D%0A"+
+        "%23YourTube"+"%0D%0A"+
         "https://yourtube.co.jp/";
     }
   }
