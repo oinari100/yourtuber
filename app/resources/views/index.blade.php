@@ -5,10 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <meta name="twitter:card" content="summary_large_image">
-  <meta property="og:url" content="https://yourtube.co.jp/">
   <meta property="og:title" content="YourTube">
-  <meta property="og:description" content="好みのジャンルを選んで、あなたにオススメ動画を検索する！">
   <meta property="og:image" content="https://yourtube.co.jp/img/top/top-img.svg">
+  <meta property="og:description" content="好みのジャンルを選んで、あなたにオススメ動画を検索する！">
+  <meta property="og:url" content="https://yourtube.co.jp/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="メカトロ同好部エルチカ">
+  <meta name="twitter:site" content="https://yourtube.co.jp/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="YourTube">
+  <meta name="twitter:image" content="https://yourtube.co.jp/img/top/top-img.svg">
+  <meta name="twitter:description" content="好みのジャンルを選んで、あなたにオススメ動画を検索する！">
+
   <title>YourTube | オススメYoutube動画診断サービス</title>
 
   <!-- Scripts -->
