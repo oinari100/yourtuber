@@ -2746,11 +2746,11 @@ __webpack_require__.r(__webpack_exports__);
   },
   created: function created() {
     var getData1 = this.$store.getters['getData1'];
-    this.youtubeItems[2].youtuber = getData1.name;
-    this.youtubeItems[2].title = getData1.title;
-    this.youtubeItems[2].url = getData1.url;
-    this.youtubeItems[2].count = getData1.count;
-    this.youtubeItems[2].genre = this.genreConvert(getData1.genre);
+    this.youtubeItems[0].youtuber = getData1.name;
+    this.youtubeItems[0].title = getData1.title;
+    this.youtubeItems[0].url = getData1.url;
+    this.youtubeItems[0].count = getData1.count;
+    this.youtubeItems[0].genre = this.genreConvert(getData1.genre);
     var getData2 = this.$store.getters['getData2'];
     this.youtubeItems[1].youtuber = getData2.name;
     this.youtubeItems[1].title = getData2.title;
@@ -2758,11 +2758,11 @@ __webpack_require__.r(__webpack_exports__);
     this.youtubeItems[1].count = getData2.count;
     this.youtubeItems[1].genre = this.genreConvert(getData2.genre);
     var getData3 = this.$store.getters['getData3'];
-    this.youtubeItems[0].youtuber = getData3.name;
-    this.youtubeItems[0].title = getData3.title;
-    this.youtubeItems[0].url = getData3.url;
-    this.youtubeItems[0].count = getData3.count;
-    this.youtubeItems[0].genre = this.genreConvert(getData3.genre);
+    this.youtubeItems[2].youtuber = getData3.name;
+    this.youtubeItems[2].title = getData3.title;
+    this.youtubeItems[2].url = getData3.url;
+    this.youtubeItems[2].count = getData3.count;
+    this.youtubeItems[2].genre = this.genreConvert(getData3.genre);
 
     if (!this.youtubeItems[0].youtuber | !this.youtubeItems[1].youtuber | !this.youtubeItems[2].youtuber) {
       this.ErrorDialog = true;
