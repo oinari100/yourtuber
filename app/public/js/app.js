@@ -2007,7 +2007,7 @@ __webpack_require__.r(__webpack_exports__);
   },
   methods: {
     tweet: function tweet() {
-      javascript: location.href = "twitter://post?message=" + "オススメの動画は…" + "%0D%0A" + "%0D%0A" + "・" + this.youtubeItems[0].youtuber + "「" + this.youtubeItems[0].title.substr(0, 5) + "...」" + "%0D%0A" + "・" + this.youtubeItems[1].youtuber + "「" + this.youtubeItems[1].title.substr(0, 5) + "...」" + "%0D%0A" + "・" + this.youtubeItems[2].youtuber + "「" + this.youtubeItems[2].title.substr(0, 5) + "...」" + "%0D%0A" + "%0D%0A" + "https://yourtube.co.jp/";
+      javascript: location.href = "twitter://post?message=" + "あなたのオススメの動画は…" + "%0D%0A" + "%0D%0A" + "・" + this.youtubeItems[0].youtuber + "「" + this.youtubeItems[0].title.substr(0, 6) + "...」" + "%0D%0A" + "・" + this.youtubeItems[1].youtuber + "「" + this.youtubeItems[1].title.substr(0, 6) + "...」" + "%0D%0A" + "・" + this.youtubeItems[2].youtuber + "「" + this.youtubeItems[2].title.substr(0, 6) + "...」" + "%0D%0A" + "%0D%0A" + "https://yourtube.co.jp/";
     }
   }
 });
