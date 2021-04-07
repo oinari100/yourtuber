@@ -60,9 +60,9 @@ class Genre extends Model
         // 結果が3件以上の場合、ランダムに減らして返す
         if (count($getResult) > config('const.GENRE.THREE_COUNT') ){
             shuffle($getResult);
-            return array_slice($getResult, config('const.GENRE.ZERO_COUNT') ,config('const.GENRE.THREE_COUNT')); 
+            return array_reverse(array_slice($getResult, config('const.GENRE.ZERO_COUNT') ,config('const.GENRE.THREE_COUNT'))); 
         } else {
-            return $getResult;
+            return array_reverse($getResult);
         }
     }
 
