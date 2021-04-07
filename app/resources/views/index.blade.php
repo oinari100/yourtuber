@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <meta name="twitter:card" content="summary">
-  <meta property="og:url" content="http://ec2-54-249-6-111.ap-northeast-1.compute.amazonaws.com/">
+  <meta property="og:url" content="https://yourtube.co.jp/">
   <meta property="og:title" content="YourTube">
   <meta property="og:description" content="好みのジャンルを選んで、あなたにオススメ動画を検索する！">
-  <meta property="og:image" content="http://ec2-54-249-6-111.ap-northeast-1.compute.amazonaws.com/img/top/top-img.svg">
+  <meta property="og:image" content="https://yourtube.co.jp/img/top/top-img.svg">
   <title>YourTube | オススメYoutube動画診断サービス</title>
 
   <!-- Scripts -->

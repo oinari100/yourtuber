@@ -34,11 +34,10 @@ export default {
   },
   methods: {
     tweet () {
-      javascript:location.href="twitter://post?message="+"あなたにオススメの動画は…"+"%0D%0A"+"%0D%0A"+
+      javascript:location.href="twitter://post?message="+"オススメの動画は…"+"%0D%0A"+"%0D%0A"+
         "・"+this.youtubeItems[0].youtuber+"「"+this.youtubeItems[0].title+"」"+"%0D%0A"+
         "・"+this.youtubeItems[1].youtuber+"「"+this.youtubeItems[1].title+"」"+"%0D%0A"+
-        "・"+this.youtubeItems[2].youtuber+"「"+this.youtubeItems[2].title+"」"+"%0D%0A"+"%0D%0A"+
-        encodeURIComponent(document.title);
+        "・"+this.youtubeItems[2].youtuber+"「"+this.youtubeItems[2].title+"」";
     }
   }
 }
