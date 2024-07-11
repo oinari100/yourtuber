@@ -17,5 +17,8 @@ Youtubeのおすすめ動画を好きなジャンルをフリックして検索�
   - 左右にフリックすることで好きor嫌いを判定し、その結果によって自身に合ったyoutubeチャンネルを表示する
 
 ## デザイン
+- 実画面
+![スクリーンショット 2024-07-11 22 20 16](https://github.com/oinari100/yourtuber/assets/69799366/00bc7e8c-acb8-4668-8c3b-ae5ec96bb750)
+
 - Figmaで作成
 <img width="1440" alt="image" src="https://github.com/oinari100/yourtuber/assets/69799366/7bae38da-f57f-44b8-9b43-321c44a42f69">
